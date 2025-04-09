@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    padding: 10px 190px;
+    height: 100px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-img{
+    width: 195px;
+    height: 70px;
+}
+
+.nav-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.nav-links{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+
+}
+.nav-links a{
+    font-size: 16px;
+    font-weight: 600;
+    color:#212529;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a:hover{
+    color: #AAAAAA;
+}
+.nav-links a img{
+    width: 20px;
+    height: 15px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown a{
+    font-size: 16px;
+    font-weight: 600;
+    color:#212529;
+    display: flex;
+    align-items: center;
+}
+.dropdown a:hover{
+    font-size: 16px;
+    font-weight: 600;
+    color:#212529;
+    display: flex;
+    align-items: center;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    z-index: 10;
+    min-width: 180px;
+    margin: 10px;
+    padding: 10px ;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    padding: 10px 0;
+}
+.dropdown-content li{
+    color: #212529;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+.about-section{
+    background: center;
+    height: 200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-hero-section{
+    background-image: url(/about-us-page-heading.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 100px;
+    height: 300px;
+}
+.content-text{
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+    position: relative;
+    text-align: center;
+    height: 100px;
+}
+.content-text h1{
+    font-size: 52px;
+    font-weight: 700;
+    color: white;
+    /* margin-bottom: 15px; */
+}
+.content-text p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.cont{
+    display: flex;
+    margin: auto;
+    gap: 40px;
+    align-items: flex-start;
+    max-width: 1200px;
+    position: relative;
+    border-bottom: 1px dashed #212529;
+    padding-bottom: 80px;
+
+}
+.cont-text img{
+    width: 10px;
+    height: 20px;
+}
+.cont-image{
+width: 570px;
+padding-top: 80px;
+height: 199px;
+border: 1px solid #ddd;
+}
+.cont-image img{
+    width: 570px;
+    height: 389px;
+    padding-left: 150px;
+}
+.cont-text{
+    padding-top: 80px;
+    flex: 1;
+    padding-right: 150px;
+    min-width: 300px;
+}
+.cont-text h4{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.cont-text p{
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+.social-icon{
+    margin-top: 10px;
+}
+.social-icon img {
+    width: 33px;
+    height: 33px;
+    /* margin: 0 5px; */
+}
+
+.teams-cont{
+    justify-content: center;
+    /* justify-content: space-between; */
+    align-items: center;
+    align-content: center;
+    padding: 8px 10px;
+    padding-left: 190px;
+    width: 999px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px; 
+    border-bottom: 1px dashed #212529;
+    padding-bottom: 80px;
+}
+.teams{
+    /* display: flex; */
+    /* flex: 0 0 auto; */
+    /* flex-direction: column; */
+    gap: 10px;
+    width: 270px;
+}
+.teams img{
+    width: 100%;
+    height: 250px;
+}
+.team-section{
+    text-align: center;
+    padding: 60px 20px;
+    
+}
+.team-title{
+    font-size: 36px;
+    font-weight: 700;
+    color: #2a2a2a;
+    margin-bottom: 10px;
+}
+.team-titlesm{
+    color: #999;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.teams{
+    flex: 0 1 250px;
+    max-width: 300px;
+}
+.teams img{
+    width: 100%;
+    border-radius: 3px;
+}
+.teams h4{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2a2a2a;
+}
+.teams p{
+    font-style: italic;
+    color: #999;
+    margin-top: 5px;
+}
+
+
+
+    
